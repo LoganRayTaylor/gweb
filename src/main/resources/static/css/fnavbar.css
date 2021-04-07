@@ -1,0 +1,26 @@
+.fnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightsteelblue;
+}
+
+.fnav li {
+    float: left;
+}
+
+.fnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+.fnav p {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+}
