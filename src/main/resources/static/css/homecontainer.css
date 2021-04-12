@@ -1,0 +1,84 @@
+.container {
+    position: relative;
+    text-align: center;
+    /*padding: 0px;*/
+    /*color: white;*/
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);*/
+}
+.h1-topleft {
+    position: absolute;
+    top: 8px;
+    left: 75px;
+}
+nav.hnav {
+position: absolute;
+    top: 70px;
+    length: 90px;
+    width: 100%;
+}
+
+nav.fnav {
+    position: absolute;
+    bottom: 140px;
+    length: 90px;
+    width: 100%;
+}
+
+img.gimg {
+    position: absolute;
+    top: 200px;
+    right: 800px;
+}
+
+p.fnav-text {
+    position: absolute;
+    top: 185px;
+    left: 150px;
+}
+li.fnav-item {
+   /*margin-right: 50px;*/
+}
+
+
+
+
+/*li.hnav-link {*/
+
+    /*width:100px;*/
+
+/*}*/
+/*.hnav-link {*/
+/*    position: absolute;*/
+/*    top: 50px;*/
+/*    left: 75px;*/
+/*}*/

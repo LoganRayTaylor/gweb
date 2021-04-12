@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org/">
 <head>
-
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link th:href="@{/css/homecontainer.css}" rel="stylesheet" />
+    <link th:href="@{/css/homebackground.css}" rel="stylesheet" />
     <link th:href="@{/css/overwatchimage1.css}" rel="stylesheet" />
+    <link th:href="@{/css/homebackgroundimage.css}" rel="stylesheet" />
     <link th:href="@{/css/hnavbar.css}" rel="stylesheet" />
     <link th:href="@{/css/fnavbar.css}" rel="stylesheet" />
+    <link th:href="@{/css/h1welcome.css}" rel="stylesheet" />
+    <link th:href="@{/css/exampletext.css}" rel="stylesheet" />
 
     <meta charset="UTF-8"/>
     <title>HomePage</title>
 </head>
 
 <body>
-<link th:href="@{/css/overwatchimage1.css}" rel="stylesheet" />
-<link th:href="@{/css/homebackground.css}" rel="stylesheet" />
-<h1> <link th:href="@{/css/h1welcome.css}" rel="stylesheet" />
-
+<div class="container">
+    <img class="backgroundimage" th:src="@{/img/webbackground2.png}" alt="Background for Webpage">
+    <h1 class="h1-topleft">
     Welcome to Garrett's Website
-</h1>
-<ul class="nav">
-    <li class="nav-item"><a class="nav-link" href="/gweb/">Home</a></li>
-    <li class="nav-item"><a class="nav-link" href="/gweb/viewart">View my Work</a></li>
-    </ul>
-<p><link th:href="@{/css/exampletext.css}" rel="stylesheet" />
-    Example Text
+    </h1>
+    <nav class="hnav">
+        <ul class="hnav-ul">
+        <li class="hnav-item"><a class="hnav-link" href="/gweb/">Home</a></li>
+        <li class="hnav-item"><a class="hnav-link" href="/gweb/viewart">View my Work</a></li>
+        </ul>
+    </nav>
+    <p class="fnav-text">
+        Example Text
+    </p>
+    <img class="gimg" th:src="@{/img/Final_illu-01.png}" alt="gamez">
+    <nav class="fnav">
+        <ul class="fnav-ul">
+            <!--        <li><p class="fnav"> Contact me: (111)-111-1111,</p></li>-->
+            <li class="fnav-item"><a class="fnav-link" href="/gweb">Phone:</a></li>
+            <li class="fnav-item"><a class="fnav-link" href="/gweb">Mail To:</a></li>
+            <!--        <li class="fnav-"><a class="fnav" href="/gweb/">Email Link</a></li>-->
+        </ul>
+    </nav>
+</div>
 
-</p>
-<img th:src="@{/img/garrett1.jpg}">
+
+<!--<ul class="nav">-->
+<!--    <li class="nav-item"><a class="nav-link" href="/gweb/">Home</a></li>-->
+<!--    <li class="nav-item"><a class="nav-link" href="/gweb/viewart">View my Work</a></li>-->
+<!--    </ul>-->
+<!--<p>-->
+<!--    Example Text-->
+<!--</p>-->
+
+<!--<img class="gimg" th:src="@{/img/garrett1.jpg}" alt="Garrett reading to PS5">-->
+<!--<img class="wbgimg" th:src="@{/img/webbackground.png}" alt="Background for Webpage">-->
+<!--<div class="backgroundimage">h1></div>-->
 <!--<img src="images/1200px-Overwatch_(videogioco).jpg" alt="overwatch" width="500" height="600">-->
-<footer>
-    <ol class="fnav">
-        <li><p class="fnav"> Contact me: (111)-111-1111,</p></li>
-        <li class="fnav-"><a class="fnav" href="/gweb">Example@gmail.com</a></li>
-<!--        <li class="fnav-"><a class="fnav" href="/gweb/">Email Link</a></li>-->
-    </ol>
-</footer>
+<!--<div>-->
+<!--<footer>-->
+<!--    <ol class="fnav">-->
+<!--&lt;!&ndash;        <li><p class="fnav"> Contact me: (111)-111-1111,</p></li>&ndash;&gt;-->
+<!--        <li class="fnav-"><a class="fnav" href="/gweb">Phone:</a></li>-->
+<!--        <li class="fnav-"><a class="fnav" href="/gweb">Mail To:</a></li>-->
+<!--&lt;!&ndash;        <li class="fnav-"><a class="fnav" href="/gweb/">Email Link</a></li>&ndash;&gt;-->
+<!--    </ol>-->
+<!--</footer>-->
+<!--</div>-->
 </body>
 </html>
