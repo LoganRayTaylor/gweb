@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<html>
 <head>
 <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
-    <link th:href="@{/css/homecontainer.css}" rel="stylesheet" />
-    <link th:href="@{/css/homebackground.css}" rel="stylesheet" />
-    <link th:href="@{/css/overwatchimage1.css}" rel="stylesheet" />
-    <link th:href="@{/css/homebackgroundimage.css}" rel="stylesheet" />
-    <link th:href="@{/css/hnavbar.css}" rel="stylesheet" />
-    <link th:href="@{/css/fnavbar.css}" rel="stylesheet" />
-    <link th:href="@{/css/h1welcome.css}" rel="stylesheet" />
-    <link th:href="@{/css/exampletext.css}" rel="stylesheet" />
+    <link href="/homecontainer.css" />
+    <link href="/homebackground.css" />
+    <link href="/overwatchimage1.css" />
+    <link href="/homebackgroundimage.css}" />
+    <link href="/hnavbar.css}"  />
+    <link href="fnavbar.css}"  />
+    <link href="/h1welcome.css}"  />
+    <link href="/exampletext.css"  />
 
     <meta charset="UTF-8"/>
     <title>HomePage</title>
@@ -17,24 +17,24 @@
 
 <body>
 <div class="container">
-    <img class="backgroundimage" th:src="@{/img/webbackground2.png}" alt="Background for Webpage">
+    <img class="backgroundimage" src="webbackground2.png" alt="Background for Webpage">
     <h1 class="h1-topleft">
     Welcome to Garrett's Website
     </h1>
     <nav class="hnav">
         <ul class="hnav-ul">
-        <li class="hnav-item"><a class="hnav-link" href="/gweb/">Home</a></li>
+        <li class="hnav-item"><a class="hnav-link" href="/">Home</a></li>
         <li class="hnav-item"><a class="hnav-link" href="/gweb/viewart">View my Work</a></li>
         </ul>
     </nav>
     <p class="fnav-text">
         Example Text
     </p>
-    <img class="gimg" th:src="@{/img/Final_illu-01.png}" alt="gamez">
+    <img class="gimg" src="/Final_illu-01.png" alt="gamez">
     <nav class="fnav">
         <ul class="fnav-ul">
             <!--        <li><p class="fnav"> Contact me: (111)-111-1111,</p></li>-->
-            <li class="fnav-item"><a class="fnav-link" href="/gweb">Phone:</a></li>
+            <li class="fnav-item"><a class="fnav-link" href="/">Phone:</a></li>
             <li class="fnav-item"><a class="fnav-link" href="/gweb">Mail To:</a></li>
             <!--        <li class="fnav-"><a class="fnav" href="/gweb/">Email Link</a></li>-->
         </ul>
